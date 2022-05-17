@@ -53,8 +53,6 @@ const displayEmployees = async (doc) => {
 					<td>
 							<a href="#" id="${doc.id}" class="edit js-edit-employee"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
 							</a>
-							<a href="#" id="${doc.id}" class="delete js-delete-employee"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
-							</a>
 					</td>
 			</tr>`;
 
